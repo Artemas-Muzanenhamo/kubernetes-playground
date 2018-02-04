@@ -32,3 +32,10 @@ you need to specify the contexts.
 Should you wish to list nodes in the cluster you can execute:
 
 `kubectl get nodes`
+
+# Teardown of K8s
+
+Should you wish to stop Minikube without deleting the contexts
+or config, you can just execute the following:
+
+`minikube stop`
