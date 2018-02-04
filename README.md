@@ -39,3 +39,12 @@ Should you wish to stop Minikube without deleting the contexts
 or config, you can just execute the following:
 
 `minikube stop`
+
+Stopping it keeps the config that we've got in there so that we can start things back up where we left off if we want to.
+
+## Teardown of K8s deleting the context
+
+Should you wish to stop Minikube and also delete the context,
+you can just execute the following:
+
+`minikube delete`
